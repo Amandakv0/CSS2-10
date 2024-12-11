@@ -10,12 +10,13 @@ body{
     margin:  0 auto;
     padding: 96px;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1705px;
     background-color: #E2F7FF;
 }
 #wholeContentMainFrame{
     margin: 0 auto;
     width: 100%;
+    max-width: 1600px;
 }
 #headerFrame{
     margin-bottom: 64px;
@@ -108,68 +109,76 @@ body{
 #firstRowMainFrame{
     width: 100%;
     max-width: 1220px;
-    margin: 0 auto;
+    margin-bottom: 48px;
 }
-#migratingMainFrame, #buildingMainFrame{
+#migratingMainFrame, #buildingMainFrame,
+#mentalMainFrame, #wireframingMainFrame{
     display: inline-block;
     vertical-align: top;
-    margin-right: 32px;
+    margin-right: 10px;/*margin s ro vuzrdi mesame qvemot vardeba da blue framnes rom vadideb ar diddeba rom yvela daetios*/
     max-width: 384px;
     width: 100%;
 }
-#leadershipMainFrame{
+#leadershipMainFrame, #collaborationMainFrame{
     display: inline-block;
     vertical-align: top;
-    max-width: 341px;
+    max-width: 384px;
     width: 100%;
 }
-#migratingImg{
+#migratingImg, #mentalImg,
+#leadershipImg, #buildingImg,
+#wireframingImg, #collabImg{
     width: 100%;
 }
 #migratingContentFrame, #buildingContentMainFrame,
-#walshContentFrame{
+#walshContentFrame, #mentalContentFrame,
+#wireframingCOntentFrame, #collaborationContentMainFrame{
     margin-top: 20px;
     margin-bottom: 24px;
     text-align: left;
 }
 #migratingHeaderFrame, #buildingHeaderFrame,
-#walshHeaderFrame{
+#walshHeaderFrame, #mentalHeadereFrame,
+#wireframingHeaderFrame, #colaborationHeaderFrame{
     display: inline-block;
-    max-width: 310px;
+    max-width: 344px;
+    width: 100%;
     vertical-align: bottom;
     margin-bottom: 8px;
 }
-#phoenix, #lana, #alec{
+#phoenix, #lana, #alec, #demi,
+#candice, #natali{
     color: #6941C6;
     font-size: 14px;
     font-weight: 600;
     padding-bottom: 8px;
 }
 #migratingHeader, #buildingHeader,
-#walshHeader{
+#walshHeader, #pmMental, #wireframingHeader,
+#collabHeader{
     font-size: 24px;
     color: #181D27;
     font-weight: 600;
     display: inline-block;
 }
-#migratArrowFrame, #buildingArrowFrame,
-#walshArrowFrame{
-    display: inline-block;
-    width: 130px;
-    text-align: right;
-}
-##headerArrow, #miigratArrow,
-#builddingArrow, #waslhArrow{
+#headerArrow, #miigratArrow,
+#builddingArrow, #waslhArrow,
+#mentalArrow, #wireframingArrow, #collabArrow{
     width: 24px;
     height: 24px;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: bottom;
 }
 #migratParag, #walshsubParag,
-#buildingParag{
+#buildingParag, #mentalParag,
+#wireframingParag, #collabParag{
     color: #535862;
     font-size: 16px;
 }
 #migratFramesFrame, #buildingFramesFrame,
-#walshFramesFrame{
+#walshFramesFrame, #mentalFramesFrame,
+#wireframingFramesFrame, #collabFramesFrame{
     width: 100%;
 }
 #productFrame{
@@ -266,4 +275,77 @@ body{
     font-size: 14px;
     font-weight: 500;
     color: #363F72;
+}
+#productMentalFrame{
+    border-radius: var(--radius-full, 9999px);
+    border: 1px solid #B9E6FE;
+    background: #F0F9FF;
+    text-align: center;
+    padding: 8px 12px;
+    width: 77px;
+    margin-right: 8px;
+    display: inline-block;
+}
+#productText{
+    color: #026AA2;
+    font-size: 14px;
+    font-weight: 500;
+}
+#researchMentalFrame{
+    display: inline-block;
+    text-align: center;
+    width: 87px;
+    padding: 8px 12px;
+    margin-right: 8px;
+    border-radius: var(--radius-full, 9999px);
+    border: 1px solid #C7D7FE;
+    background: #EEF4FF;
+}
+#researchText{
+    font-size: 14px;
+    font-weight: 500;
+    color: #3538CD;
+}
+#frameworksFrame{
+    display: inline-block;
+    width: 107px;
+    padding: 8px 12px;
+    text-align: center;
+    border-radius: var(--radius-full, 9999px);
+    border: 1px solid #F9DBAF;
+    background: #FEF6EE;
+}
+#frameworks{
+    font-size: 14px;
+    font-weight: 500;
+    color: #B93815;
+}
+#desginnFrame, #desginCollabFrame{
+    display: inline-block;
+    text-align: center;
+    padding: 8px 12px;
+    margin-right: 8px;
+    width: 79px;
+    border-radius: var(--radius-full, 9999px);
+    border: 1px solid #E9D7FE;
+    background: #F9F5FF;
+}
+#designTextt, #desginCollab{
+    font-size: 14px;
+    font-weight: 500;
+    color: #6941C6;
+}
+#reserachFramee, #reserachCollabFrame{
+    display: inline-block;
+    text-align: center;
+    padding: 8px 12px;
+    width: 95px;
+    border-radius: var(--radius-full, 9999px);
+    border: 1px solid #C7D7FE;
+    background: #EEF4FF;
+}
+#researchh, #reserachCollab{
+    color: #3538CD;
+    font-size: 14px;
+    font-weight: 500;
 }
