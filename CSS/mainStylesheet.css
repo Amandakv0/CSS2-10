@@ -141,13 +141,14 @@ body{
 #walshHeaderFrame, #mentalHeadereFrame,
 #wireframingHeaderFrame, #colaborationHeaderFrame{
     display: inline-block;
-    max-width: 344px;
+    max-width: 340px;
     width: 100%;
     vertical-align: bottom;
     margin-bottom: 8px;
 }
 #phoenix, #lana, #alec, #demi,
 #candice, #natali{
+    display: inline-block;
     color: #6941C6;
     font-size: 14px;
     font-weight: 600;
@@ -166,8 +167,8 @@ body{
 #mentalArrow, #wireframingArrow, #collabArrow{
     width: 24px;
     height: 24px;
+    margin-left: 5px;
     display: inline-block;
-    margin-left: 10px;
     vertical-align: bottom;
 }
 #migratParag, #walshsubParag,
